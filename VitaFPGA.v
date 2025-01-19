@@ -15,11 +15,11 @@
 //    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 `default_nettype none
-Module MyLogicBlock(Side0, Side1, Side2, Side3);
-Inout wire [6:0] Side0;
-Inout wire [6:0] Side1;
-Inout wire [6:0] Side2;
-Inout wire [6:0] Side3;
+module MyLogicBlock(Side0, Side1, Side2, Side3);
+inout wire [6:0] Side0;
+inout wire [6:0] Side1;
+inout wire [6:0] Side2;
+inout wire [6:0] Side3;
 reg [1:0] ProgrammableRom = 2’b11;
 reg [4:0] LUT2InputsAndOutputs = 5’b00000;
 reg [0:0] BitForwarding = 1’b0;
