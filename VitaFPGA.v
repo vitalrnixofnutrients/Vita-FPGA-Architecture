@@ -15,7 +15,7 @@
 //    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 `default_nettype none
-module MyLogicBlock(Side0, Side1, Side2, Side3);
+module VitaFPGALogicBlock(Side0, Side1, Side2, Side3);
 inout wire [6:0] Side0;
 inout wire [6:0] Side1;
 inout wire [6:0] Side2;
