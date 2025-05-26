@@ -1,4 +1,6 @@
-// Copyright © 2025 Outfox Semiconductor LLC, All rights reserved.
+// Copyright © 2025
+// Outfox Semiconductor LLC
+// All rights reserved.
 // EUPL © the European Union 2007, 2016
 
 `default_nettype none
