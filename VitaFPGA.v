@@ -1,5 +1,5 @@
-// Copyright © 2025 Outfox Semiconductor LLC, All rights reserved.
-// EUPL © the European Union 2007, 2016
+// The Vita FPGA Architecture is now 
+// released into the Public Domain.
 
 `default_nettype none
 
