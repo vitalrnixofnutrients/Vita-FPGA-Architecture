@@ -8,7 +8,7 @@ In short, a FPGA Architecture that works despite containing silicon defects and 
 
 Problems:
 
-* I wonder how to tell the OpenLane toolchain how to create a grid of Logic Blocks instead of just one. I would also have to tell the OpenLane toolchain where the efabless bare die I/O pins are located and how to connect seven pins at a time to a specific Logic Block. * I also have to write a Verilog to bitstream toolchain that I would license under the Unlicense and I could formally verify it.
+* I wonder how to tell the OpenLane toolchain how to create a grid of Logic Blocks instead of just one. I would also have to tell the OpenLane toolchain where the efabless bare die I/O pins are located and how to connect seven pins at a time to a specific Logic Block. * I also have to write a Verilog to bitstream toolchain that I would license under the Unlicense and I could formally verify it. No, I will not edit my source code to bend it to proprietary FPGA toolchains that won't synthesize my code, I’ll try all sorts of toolchains to see what does, such as by trying QuickLogic’s fully open source toolchain. If you want to fix my code in your own repos to make it work with a proprietary toolchain, go ahead, it’s Public Domain. I won’t though for now, sorry.
 
 -------------------------------------------------------------------------
 
